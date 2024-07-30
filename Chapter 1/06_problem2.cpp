@@ -20,6 +20,7 @@ int main() {
     
     if (marks < 0 || marks > 100) {
         cout << "Invalid marks, try again!" << endl;
+
     } 
     else if (marks < 25) {
         cout << "Grade F: " << marks << endl;
@@ -36,9 +37,14 @@ int main() {
      else if (marks >= 60 && marks <= 79) {
         cout << "Grade B: " << marks << endl;
     } 
+
     else if (marks >= 80 && marks <= 100) {
         cout << "Grade A: Congratulations! " << marks << endl;
-    }
+    
 
+        if (marks >=90 || marks >=100) {    //FIXME: This is Nested Statement
+            cout << "You did it now IIT is waiting for you !" << endl;
+        }
+    }
     return 0;
 }
