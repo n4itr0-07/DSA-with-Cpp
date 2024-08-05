@@ -1,7 +1,3 @@
-Sure! Here's a markdown file on the topic of Time and Space Complexity, complete with code examples and brief explanations:
-
----
-
 # Time and Space Complexity
 
 ## Introduction
@@ -19,6 +15,7 @@ Space complexity measures the amount of memory an algorithm uses in relation to 
 ## Time Complexity
 
 ### Big O Notation
+![Tc_Sc](https://github.com/user-attachments/assets/ab6102a2-85bb-45f8-8b75-c86d0715d8da)
 
 Big O notation is used to describe the upper bound of an algorithm's time complexity. It characterizes functions according to their growth rates:
 
