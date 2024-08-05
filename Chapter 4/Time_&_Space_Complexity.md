@@ -25,7 +25,7 @@ Big O notation is used to describe the upper bound of an algorithm's time comple
 - **O(n log n)**: Linearithmic time
 - **O(n^2)**: Quadratic time
 - **O(2^n)**: Exponential time
-  ---
+
 ![Graph_Tc](https://github.com/user-attachments/assets/6f6514a9-236a-46d0-81b4-ffd28c1a8323)
 
 ### Examples
