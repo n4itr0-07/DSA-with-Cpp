@@ -156,7 +156,7 @@ int main() {
 | Size                   | Sum of the sizes of all members.                             | Size of the largest member.                                 |
 | Use Case               | Used when multiple attributes are required simultaneously.   | Used when a single attribute is required at a time.         |
 
-```
+
 
 ---
 
@@ -164,7 +164,8 @@ int main() {
 - **Use Structures** when you need to store and access multiple data members simultaneously.
 - **Use Unions** when you need to store different data types but only one at a time, optimizing memory usage.
 
-```markdown
+
 # Conclusion
 
 Structures and unions are both powerful tools in C++ for managing related data. Structures are best when you need to group and work with multiple attributes simultaneously, while unions are ideal for memory-efficient management of variables where only one value is required at any given time.
+```
