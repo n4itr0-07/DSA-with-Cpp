@@ -23,7 +23,7 @@ int main() {
     // for(int i : vec) { // for each loop
     //     cout << i << endl;
     // }
-    vec.push_back(55);
+    vec.push_back(55); 
     cout << vec.front() << endl;
     cout << vec.back() << endl;
     cout << "capacity = " << vec.capacity() <<  endl ;
@@ -31,4 +31,4 @@ int main() {
     
                                                                
     return 0;
-}
+}   
