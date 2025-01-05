@@ -1,14 +1,11 @@
+// Complete File Handling In C++ Tutorial
+
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std;
-//TODO: CHALLANGE: Write a program that lets the user select a tea type from a menu. USe a swich statement to display the price based on the selected tea: *Greem Tea:$2
-            // Black Tea: $3
-            // Lemon Tea: $4
-            // Ginger Tea: $5
-            // Honey Tea: $6
-            // Mint Tea: $7
-              // Other: $1
+
 int main() {
     int choice;
 
@@ -35,28 +32,27 @@ int main() {
         cout << "Lemon Tea: $4" << endl;
         break;
     case 4:
-
         cout << "Ginger Tea: $5" << endl;
         break;
     case 5:
-    
         cout << "Honey Tea: $6" << endl;
         break;
     case 6:
-        
         cout << "Mint Tea: $7" << endl;
         break;
     default:
         cout << "Other: $1" << endl;
         break;
     }
+
+    ofstream file("tea.txt");
+    if (file.is_open()) {
+        file << "Tea Type: " << choice << endl;
+        file.close();
+    }
+    else {
+        cout << "Unable to open file" << endl;
+    }
+
     return 0;
 }
-// Output: Select a tea type:
-// 1. Green Tea
-// 2. Black Tea
-// 3. Lemon Tea
-// 4. Ginger Tea
-// 5. Honey Tea
-// 6. Mint Tea
-// 7. Other
